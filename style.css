@@ -1,0 +1,67 @@
+.Card{
+    width: 450px;
+    position: relative;
+    border: 7px solid #a008f8;
+    font-family: 'Poppins', sans-serif;
+}
+.Card__Img{
+    width: 30%;
+    margin: auto;
+    padding-top: 5%;
+}
+.Card__Img--redondo{
+    width: 100%;
+    border-radius:50%;
+    padding: 1px;
+    border: 2px solid #a008f8;
+}
+.Card__Name{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.Card__Name h1{
+    margin: 0;
+    color: #a008f8;
+    font-size: medium;
+}
+.Card__Name p{
+    margin: 0;
+    color: #a008f8;
+    font-size: x-large;
+}
+.Card__Descripcion{
+    text-align: justify;
+    margin-right: 8%;
+    margin-left: 8%;
+}
+.Card__Descripcion p{
+    margin: 0;
+}
+.Card__Button{
+    display: flex;
+    margin: 8%;
+    justify-content: space-between;
+}
+.Card__Button--Blanco{
+    width: 49%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 2px solid #a008f8; 
+    font-family: 'Poppins', sans-serif;
+    color: #a008f8;
+    background-color: inherit;
+    font-size: medium;
+    font-weight: bold;
+}
+.Card__Button--Relleno{
+    width: 49%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 2px solid #a008f8; 
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #a008f8;
+    font-size:medium;
+    font-weight: bold;
+}
